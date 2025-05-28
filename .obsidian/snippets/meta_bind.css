@@ -1,0 +1,27 @@
+p:has(.form), div.form:not(:has(.mb-card)) > span {
+    display: grid;
+    gap: 0.25em;
+
+    & .mb-view {
+        display: block !important;
+    }
+
+    & .mb-input {
+        display: block !important;
+        width: 100%;
+
+        & .full-width {
+            & input, select {
+                width: 100%;
+            }
+        }
+    }
+}
+
+div.form .mb-card {
+    overflow-x: auto;
+
+    & .mb-list-items {
+        width: fit-content;
+    }
+}

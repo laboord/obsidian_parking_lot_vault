@@ -1,0 +1,9 @@
+.callout[data-callout="tasks-by-tag"] {
+    --callout-color: var(--color-blue-rgb);
+    --callout-icon: lucide-tags;
+}
+
+.callout[data-callout="tasks-by-file"] {
+    --callout-color: var(--color-cyan-rgb);
+    --callout-icon: lucide-file;
+}
